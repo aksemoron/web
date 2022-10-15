@@ -1,0 +1,6 @@
+services:
+  nginx:
+    container_name: nginx-proxy
+    image: aksemoron/hello_otus:arch
+    ports:
+      - "8000:8000"
